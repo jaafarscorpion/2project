@@ -1,0 +1,181 @@
+h2.customh2.center {
+  text-align: center;
+  color: red;
+  position: relative;
+}
+
+h2.customh2:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  border: 2px solid red;
+
+
+
+  left: 0;
+  max-width: 166px;
+  width: 100%;
+  right: 0;
+  margin: 0 auto;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+.button{
+  background:red;
+  color:#fff;
+  display:flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 250px;
+  width:100%;
+}
+.bg3{
+  background-image: url(src/assets/images/recomended_background_image@1x.png);
+  min-height: 498px;
+  position: relative;
+}
+h2.customh21 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+h2.customh21:before {
+  content:"";
+  position:absolute;
+  border-bottom:2px solid #fff;
+  max-width:150px;
+  width:100%;
+  left:0;
+  right:0;
+  margin:0 auto;
+  top: 103%;
+ }
+
+h3.center {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.bg3{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg3 p {
+  color: #fff;
+  text-align: center;
+}
+a.button {
+  margin: 15px auto;
+}
+
+.bg3 {
+  margin: 25px auto;
+}
+
+.button {
+  margin: 34px auto !important;
+  justify-content: center;
+}
+
+.para5
+{
+text-align: center;
+color:gray;
+font-size: 14px;
+}
+.color
+{
+ color: antiquewhite;
+}
+.bouton2
+{
+background-color: #d12731;
+border-radius: 5px;
+border-color: #ffff;
+color: #FFFFFF;
+border: 1px solid white;
+padding: 15px;
+width: 225px;
+text-align: center;
+font-size: 16px;
+text-align: center;
+}
+.bg2 {
+  background-image: url(src/assets/images/news_letter_background_image_home@1x.png);
+  background-repeat: no-repeat;
+  height: 935px;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.para6
+{
+    font-size: 26px;
+    font-weight: normal;
+    color:antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:5px;
+}
+.margin5 {
+  margin-top: 210px;
+}
+.bouton3
+{
+
+background-color:#23292e;
+width: 140px;
+font-size: 30px;
+border-radius: 0px;
+color: #c6c8ca;
+text-align: center;
+text-align: center;
+}
+.stylenav1
+{
+    margin-top: 95px;
+}
+.dis
+{
+    display: inline-block;
+}
+.remove-all-margin-padding{
+    margin:0 ! important;
+    padding:0 ! important;
+}
+
+.padR
+{
+padding-right: 15px;
+}
+
+
+
+
+.para6 {
+  text-align: center;
+}
+
+.para2 {
+  text-align: center;
+}

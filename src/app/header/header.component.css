@@ -1,0 +1,80 @@
+header{
+  background-image: url(src/assets/images/slider_image_home@1x.png);
+  min-height: 600px;
+  position: relative;
+}
+.logo {
+  text-align: center;
+}
+.slogan {
+  color: #fff;
+  max-width: 358px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.slogan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55%;
+}
+ul.navbar-nav.mr-auto {
+  padding: 0px;
+}
+
+ul.navbar-nav.mr-auto li {
+  list-style: none;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  padding: 0px 17px;
+  color: #fff;
+}
+div#menus {
+  position: relative;
+}
+
+a.mybouton {
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto 15px;
+  border-radius: 21px;
+}
+
+h2.customh2 {
+  text-align: center;
+  padding: 15px 0px;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+h2.customh2:before {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid;
+  bottom: 0;
+  max-width: 128px;
+  width: 100%;
+  left: 45%;
+  /* right: auto; */
+}
+.navbar {
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav>li:hover {
+  cursor: pointer;
+}
+.bg-light {
+  background-color: transparent !important;
+}
