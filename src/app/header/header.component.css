@@ -78,3 +78,10 @@ h2.customh2:before {
 .bg-light {
   background-color: transparent !important;
 }
+.navbar-expand-lg .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100% !important;
+  width: 100%;
+}
