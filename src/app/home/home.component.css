@@ -187,4 +187,11 @@ h2.customh2.center {
   overflow: hidden;
 }
 
-
+.navbar-nav {
+  max-width: 100% !important;
+  width: 100%;
+  /* text-align: center; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
